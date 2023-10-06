@@ -1,0 +1,25 @@
+/* css página CV*/
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+#texto {
+    resize: none;
+    overflow: scroll;
+}
+
+header {
+    background: #000000 url('imagenes/matrix.gif') repeat-x; 
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center; 
+    text-decoration: underline;
+}
+
+.encabezado{
+    text-align: center; 
+}
