@@ -1,7 +1,8 @@
 /* css página CV*/
 
 body {
-    font-family: 'Oxygen', sans-serif;
+    background-color: black;
+    color: white; /* Cambiar el color del texto si es necesario */
 }
 
 #texto {
@@ -10,16 +11,83 @@ body {
 }
 
 header {
-    background: #000000 url('imagenes/matrix.gif') repeat-x; 
-    text-align: center;
+    background: #ffffff url('imagenes/matrix.gif') repeat-x; 
+    height: 7%;
 }
 
 
 h1 {
-    text-align: center; 
-    text-decoration: underline;
+    text-align: center;
 }
 
 .encabezado{
     text-align: center; 
 }
+
+.encabezado h2 a {
+    transition: transform 0.3s ease; /* Agrega una transición suave de 0.3 segundos */
+    display: inline-block; /* Para que el enlace tome solo el ancho del contenido */
+    text-decoration: none; /* Quita la subrayado predeterminado del enlace */
+    color: #ffffff; /* Color de texto predeterminado */
+  }
+  
+  .encabezado h2 a:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del enlace al 110% cuando el mouse está encima */
+  }
+  
+  .encabezado h2 a.github:hover {
+    color: #888; /* Cambia el color del texto a gris cuando el mouse está encima en GitHub */
+  }
+  
+  .encabezado h2 a.linkedin:hover {
+    color: #007bff; /* Cambia el color del texto a azul cuando el mouse está encima en LinkedIn */
+  }
+
+.subtemas-container {
+    background-color: #ffffff; /* Color de fondo de la línea de separación */
+  }
+  
+  .subtemas {
+    position: relative;
+    text-align: left; /* Centra el texto horizontalmente */
+    color: #ffffff; /* Color del texto */
+    padding: 0, 0; /* Espaciado superior e inferior del texto */
+  }
+  
+  .subtemas::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px; /* Grosor de la línea de separación */
+    background-color: #ffffff; /* Color de la línea de separación */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  p {
+    font-size: 18px; /* Tamaño de fuente */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-bottom: 20px; /* Espaciado en la parte inferior de los párrafos */
+    color: white; /* Color del texto */
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* Tipo de fuente */
+    text-align: left; /* Alineación del texto */
+  }
+  
+  footer {
+    background-color: #000000; /* Cambia el color de fondo del footer según tu preferencia */
+    color: white; /* Cambia el color del texto a blanco */
+    text-align: center; /* Centra el contenido horizontalmente */
+    padding: 20px 0; /* Espaciado interior en la parte superior e inferior del footer */
+  }
+  
+  footer img {
+    width: 230px; /* Establece un ancho máximo para la imagen del logotipo */
+  }
+  
+  footer p {
+    font-size: 14px; /* Tamaño de fuente para el texto del copyright */
+    margin-top: 10px; /* Espaciado superior para el texto del copyright */
+    text-align: center;
+  }
+  
