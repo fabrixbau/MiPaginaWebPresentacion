@@ -1,0 +1,28 @@
+<div class="encabezado">
+        <h2><a href="https://github.com/fabrixbau" class="github"><i class="fab fa-github"></i> Visitar mi perfil de GitHub</a></h2>
+        <h2><a href="https://www.linkedin.com/in/fabrizio-bautista-jim%C3%A9nez-1b1651210/" class="linkedin"><i class="fab fa-linkedin"></i> Visitar mi perfil LinkedIn</a></h2>
+    </div>
+    
+
+    <div class="subtemas"><h2>EXPERIENCIA</h2></div>
+    
+
+    <div class="subtemas"><h2>EDUCACIÓN</h2></div>
+    <p>He tomado diferentes cursos, pero mis dos grandes referentes han sido alura y Edteam, en alura
+        me certifique como developer web especializado en back-end. Solo por mencionar tome cursos básicos de
+        ciberseguridad
+        como el (ISC)².</p>
+
+    <div class="subtemas"><h2>INFORMACIÓN ADICIONAL</h2></div>
+    <p>Lenguajes de programación</p>
+    <ul>
+        <li>JavaScript/Java (10 meses)</li>
+        <li>HTML/CSS (10 meses)</li>
+    </ul>
+
+    <p>Tecnologías</p>
+    <ul>
+        <li>Data bases MySQL (5 meses)</li>
+        <li>Spring Boot (5 meses)</li>
+        <li>GitHub (5 meses)</li>
+    </ul>
