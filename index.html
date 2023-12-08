@@ -15,27 +15,27 @@
 
 <body>
                     <!-- Encabezado mitad izquierda -->
-<header class="bg-orange-50 flex md:flex-row items-center">
-    <div class="flex md:flex-row gap-y-5 items-center container mx-auto justify-between w-2/3">
-        <div class="w-full md:w1/3 pt-4 pb-4 flex justify-between p-4">
-            <div class="flex items-center">
+<header class="bg-orange-50 flex flex-col lg:flex-row items-center ">
+    <div class="w-full lg:w-1/2 md:flex-col">
+        <div class="pt-4 pb-4 lg:pr-0 pr-5">
+            <div class="flex flex-col lg:flex-row items-center">
 
-                <img src="imagenes/fotoPerfil.jpg" class="img-fluid rounded-full m-4 w-52 hover:scale-110">
+                <img src="imagenes/fotoPerfil.jpg" class="img-fluid rounded-full m-4 w-52 hover:scale-110 lg:pl-0 pl-8">
                 
                 <div class="hover:scale-125 flex items-center ml-14 font-semibold text-xl tracking-tighter">
-                    <p> <a href="https://github.com/fabrixbau"> Perfil GitHub  </a></p>
+                    <p> <a href="https://github.com/fabrixbau" target="_blank"> Perfil GitHub  </a></p>
     
-                    <a href="https://github.com/fabrixbau">
+                    <a href="https://github.com/fabrixbau" target="_blank">
                         <img src="imagenes/github.svg" class="w-8 m-3">
                     </a>
                 </div>
 
                 <div class="flex items-center ml-14 font-semibold text-xl hover:scale-125">
                     <p>
-                        <a href="https://www.linkedin.com/in/fabrizio-bautista-jim%C3%A9nez-1b1651210/">Perfil Linkedin</a>
+                        <a href="https://www.linkedin.com/in/fabrizio-bautista-jim%C3%A9nez-1b1651210/" target="_blank">Perfil Linkedin</a>
                     </p>
     
-                    <a href="https://www.linkedin.com/in/fabrizio-bautista-jim%C3%A9nez-1b1651210/">
+                    <a href="https://www.linkedin.com/in/fabrizio-bautista-jim%C3%A9nez-1b1651210/" target="_blank">
                         <img src="imagenes/LinkIn.png" class="w-8 m-3">
                     </a>              
                 </div>
@@ -54,10 +54,10 @@
     </div>
         
                         <!-- Encabezado mitad derecha -->
-        <div class="md:w-2/3 pt-3 w-1/4">
-            <div class="flex flex-col md:pl-8">
-                <h1 class="lg:pr-2 mt-5 text-5xl font-semibold pb-14 ">José Fabrizio Bautista Jiménez</h1>
-                <p class="font-mono pr-24 w-full pb-4 ">Soy un apasionado programador especializado en el desarrollo back-end con un enfoque sólido en la creación de sistemas robustos y eficientes. Con un año de experiencia en el campo de la programación, he colaborado en proyectos diversos y desafiantes que han fortalecido mis habilidades en el diseño y la implementación de soluciones escalables. Mi motivación radica en encontrar soluciones innovadoras a problemas complejos, aportando un pensamiento analítico y metódico para cumplir con los objetivos del proyecto.</p>
+        <div class="w-full lg:w-1/2  pt-3 pl-14">
+            <div class="flex flex-col">
+                <h1 class="lg:pr-2 mt-5 text-5xl font-semibold pb-14 lg:text-left text-center pr-10">José Fabrizio Bautista Jiménez</h1>
+                <p class="font-mono lg:pr-24 pr-10 w-full pb-4 lg:text-left text-center">Soy un apasionado programador especializado en el desarrollo back-end con un enfoque sólido en la creación de sistemas robustos y eficientes. Con un año de experiencia en el campo de la programación, he colaborado en proyectos diversos y desafiantes que han fortalecido mis habilidades en el diseño y la implementación de soluciones escalables. Mi motivación radica en encontrar soluciones innovadoras a problemas complejos, aportando un pensamiento analítico y metódico para cumplir con los objetivos del proyecto.</p>
             </div>
         </div>
     </div>
@@ -65,10 +65,10 @@
 
 
     
-    <div class="flex">
-        <div class="w-1/2 container mx-16 pt-8">
+    <div class="flex flex-col lg:flex-row">
+        <div class="w-full lg:w-1/2 md:w1/2 container lg:mx-4 pt-8">
             <!-- Contenido de la primera mitad -->
-            <div class="container mx-10 ">
+            <div class="container lg:mx-10 ">
 
                 <!-- Primer fila -->
                 <div class="pb-1 border-b-2 border-b-slate-400 flex mx-auto items-center">
@@ -77,57 +77,57 @@
                 </div>
 
                 <div class="flex mx-auto items-center">
-                    <div class="-mt-2 font-mono text-lg">
-                        <p class="pt-3">HTML5, CSS Y JavaScript</p>
-                        <p class="pt-3">Base de datos MySQL</p>
-                        <p class="pt-3">Api REST full con java y spring</p>
-                        <p class="pt-3">Node.js</p>
-                        <p class="pt-3">Java orientado a objetos</p>
-                        <p class="pt-3">Micro servicios</p>
-                        <p class="pt-3">Git</p>
+                    <div class=" lg:-mt-1 font-mono text-lg ">
+                        <p class="">HTML5, CSS Y JavaScript</p>
+                        <p class="pt-4">Base de datos MySQL</p>
+                        <p class="pt-4">Api REST full con java y spring</p>
+                        <p class="pt-4">Node.js</p>
+                        <p class="pt-4">Java orientado a objetos</p>
+                        <p class="pt-4">Micro servicios</p>
+                        <p class="pt-4">Git</p>
                     </div>
                     
 
                 <!-- Comente ciertos <p> para poner la gráfica en orden se pueden modificar -->
-                    <div class="mt-2">
+                    <div class="lg:mt-1">
                         <!-- HTML5,CSS Y JavaScript -->
-                        <div class="flex m-4">
-                            <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1 text-gray-200">basico</p>
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-5">
+                            <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <!-- <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
                         </div>
                         <!-- Base de datos -->
-                        <div class="flex m-4">
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-8">
                             <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <!-- <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
                         </div>
                         <!-- Api RST full -->
-                        <div class="flex m-4">
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-8">
                             <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <!-- <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
                         </div>
                         <!-- Node.js -->
-                        <div class="flex m-4">
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-8">
                             <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <!-- <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
                         </div>
                         <!-- Java Orientado a objetos -->
-                        <div class="flex m-4">
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-8">
                             <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <!-- <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
                         </div>
                         <!-- Micro Servicios -->
-                        <div class="flex m-4">
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-8">
                             <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <!-- <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
                         </div>
                         <!-- GIT -->
-                        <div class="flex m-4">
+                        <div class="flex lg:m-5 lg:ml-4 -ml-3 mt-6">
                             <p class="border border-solid rounded-lg bg-gray-200 ml-24 mx-1.5 text-gray-200">basico</p>
                             <p class="bg-gray-400 border border-solid rounded-lg mx-1.5 text-gray-400">basico</p>
                             <!-- <p class=" bg-gray-500   rounded-lg mx-1.5 text-gray-500"></p> -->
@@ -139,15 +139,15 @@
                 
          </div>
 
-            <div class="container mx-10 ">
+            <div class="container lg:mx-10 ">
                 <!-- Segunda fila -->
-                <h1 class="pb-1 border-b-2 border-b-slate-400 flex mx-auto items-center font-bold  text-3xl pt-8">Idiomas</h1>
+                <h1 class="pb-1 border-b-2 border-b-slate-400 flex flex-col lg:flex-row lg:mx-auto items-center font-bold  text-3xl pt-8">Idiomas</h1>
                 <div class="flex">
                     <div class="mt-2 font-mono text-lg">
                         <p class="pt-3">Español</p>
                         <p class="pt-3">Ingles</p>
                     </div>
-                    <div class="mt-2 font-mono text-lg ml-96">
+                    <div class="mt-2 font-mono text-lg lg:ml-96 ml-64">
                         <p class="pt-3">Nativo</p>
                         <p class="pt-3">B2</p>
                     </div>
@@ -156,11 +156,12 @@
             </div>
             
         </div>
-        <div class="w-1/2 container mx-16 ">
-            <!-- Contenido de la segunda mitad -->
-            <div class="container mx-10 ">
+        
+        <!-- Contenido de la segunda mitad -->
+        <div class="w-full lg:w-1/2 md:w1/2 container lg:mx-16 ">
+            <div class="container lg:mx-10 ">
                 <!-- Primer fila -->
-                <h1 class="pb-1 border-b-2 border-b-slate-400 flex mx-auto items-center font-bold  text-3xl pt-8">Estudios y certificaciones</h1>
+                <h1 class="pb-1 border-b-2 border-b-slate-400 flex flex-col lg:flex-row mx-auto items-center font-bold text-3xl pt-8">Estudios y certificaciones</h1>
                 <div class="flex">
                     <div class="mt-2">
                         <p class="pt-3 font-bold text-xl" >HTML5, CSS y Git</p>
@@ -172,14 +173,14 @@
                     </div>
                         
                     <div class="mt-2"> 
-                        <p class="mt-7 text-gray-400 text-base border-b-2 ml-10">enero 2023 - sept 2023</p>
-                        <p class="mt-14 text-gray-400 text-base border-b-2 ml-10">enero 2023 - sept 2023</p>
-                        <p class="mt-12 text-gray-400 text-base border-b-2 ml-10">julio 2023 - nov 2023</p>
+                        <p class="lg:mt-7 mt-3 text-gray-400 text-base border-b-2 ml-10">enero 2023 - sept 2023</p>
+                        <p class="lg:mt-14 mt-7 text-gray-400 text-base border-b-2 ml-10">enero 2023 - sept 2023</p>
+                        <p class="lg:mt-12 mt-7 text-gray-400 text-base border-b-2 ml-10">julio 2023 - nov 2023</p>
                     </div>
                 </div>
                 
             </div>
-            <div class="container mx-10 pt-8">
+            <div class="container lg:mx-10 pt-8">
                 <!-- Segunda fila -->
                 <h1 class="pb-1 border-b-2 border-b-slate-400 flex mx-auto items-center font-bold  text-3xl pt-8">Experiencia laboral</h1>
                 <p class="pt-3 mt-2 font-mono text-lg">Llevo un año estudiando y algunos meses empezando a hacer algunos proyectos personales y para un par de negocios, hice mi propia pagina web donde estoy presentando mi CV, también hice la página web de una cafeteria y la pagina web de un restaurante. Proyectos escolares tengo varios, hice 2 API REST FULL, una era para registrar citas en una clinica medica, la otra era solo para trabajar con los metodos CRUD.Tambien trabaje en un proyecto donde utilizaba Websockets para emular venta de algunos productos y esos se veian reflejados en una tabla. </p>
@@ -193,3 +194,16 @@
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- cosas por hacer, en modo "sm" corregir la parte de DESTREZAS -->
